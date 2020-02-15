@@ -1,0 +1,11 @@
+D:\_PROGRAMM\TEST\TEST\bin\Debug\TEST.exe
+D:\_PROGRAMM\TEST\TEST\bin\Debug\TEST.pdb
+D:\_PROGRAMM\TEST\TEST\bin\Debug\TEST.xml
+D:\_PROGRAMM\TEST\TEST\obj\x86\Debug\WindowsApplication1.mainForm.resources
+D:\_PROGRAMM\TEST\TEST\obj\x86\Debug\WindowsApplication1.frmAccess.resources
+D:\_PROGRAMM\TEST\TEST\obj\x86\Debug\WindowsApplication1.Resources.resources
+D:\_PROGRAMM\TEST\TEST\obj\x86\Debug\TEST.vbproj.GenerateResource.Cache
+D:\_PROGRAMM\TEST\TEST\obj\x86\Debug\TEST.exe
+D:\_PROGRAMM\TEST\TEST\obj\x86\Debug\TEST.xml
+D:\_PROGRAMM\TEST\TEST\obj\x86\Debug\TEST.pdb
+D:\_PROGRAMM\TEST\TEST\obj\x86\Debug\WindowsApplication1.frmSQL.resources
