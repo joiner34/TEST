@@ -36,7 +36,7 @@ Partial Class frmSQL
         Me.tbQnt = New System.Windows.Forms.TextBox()
         Me.btnAddTable = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.tbNameBase = New System.Windows.Forms.TextBox()
+        Me.tbStrCon = New System.Windows.Forms.TextBox()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
@@ -175,12 +175,12 @@ Partial Class frmSQL
         Me.Label1.TabIndex = 11
         Me.Label1.Text = "Строка подключения к данным MS SQL"
         '
-        'tbNameBase
+        'tbStrCon
         '
-        Me.tbNameBase.Location = New System.Drawing.Point(36, 28)
-        Me.tbNameBase.Name = "tbNameBase"
-        Me.tbNameBase.Size = New System.Drawing.Size(427, 20)
-        Me.tbNameBase.TabIndex = 9
+        Me.tbStrCon.Location = New System.Drawing.Point(36, 28)
+        Me.tbStrCon.Name = "tbStrCon"
+        Me.tbStrCon.Size = New System.Drawing.Size(427, 20)
+        Me.tbStrCon.TabIndex = 9
         '
         'frmSQL
         '
@@ -191,7 +191,7 @@ Partial Class frmSQL
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.btnAddTable)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.tbNameBase)
+        Me.Controls.Add(Me.tbStrCon)
         Me.Name = "frmSQL"
         Me.Text = "SQL"
         Me.GroupBox2.ResumeLayout(False)
@@ -216,5 +216,5 @@ Partial Class frmSQL
     Friend WithEvents tbQnt As System.Windows.Forms.TextBox
     Friend WithEvents btnAddTable As System.Windows.Forms.Button
     Friend WithEvents Label1 As System.Windows.Forms.Label
-    Friend WithEvents tbNameBase As System.Windows.Forms.TextBox
+    Friend WithEvents tbStrCon As System.Windows.Forms.TextBox
 End Class

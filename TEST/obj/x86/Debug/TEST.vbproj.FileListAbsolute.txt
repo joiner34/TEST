@@ -9,3 +9,14 @@ D:\_PROGRAMM\TEST\TEST\obj\x86\Debug\TEST.exe
 D:\_PROGRAMM\TEST\TEST\obj\x86\Debug\TEST.xml
 D:\_PROGRAMM\TEST\TEST\obj\x86\Debug\TEST.pdb
 D:\_PROGRAMM\TEST\TEST\obj\x86\Debug\WindowsApplication1.frmSQL.resources
+C:\Users\Joiner\Documents\GitHub\TEST\TEST\obj\x86\Debug\TEST.exe
+C:\Users\Joiner\Documents\GitHub\TEST\TEST\obj\x86\Debug\TEST.xml
+C:\Users\Joiner\Documents\GitHub\TEST\TEST\obj\x86\Debug\TEST.pdb
+C:\Users\Joiner\Documents\GitHub\TEST\TEST\bin\Debug\TEST.exe
+C:\Users\Joiner\Documents\GitHub\TEST\TEST\bin\Debug\TEST.pdb
+C:\Users\Joiner\Documents\GitHub\TEST\TEST\bin\Debug\TEST.xml
+C:\Users\Joiner\Documents\GitHub\TEST\TEST\obj\x86\Debug\WindowsApplication1.mainForm.resources
+C:\Users\Joiner\Documents\GitHub\TEST\TEST\obj\x86\Debug\WindowsApplication1.frmAccess.resources
+C:\Users\Joiner\Documents\GitHub\TEST\TEST\obj\x86\Debug\WindowsApplication1.frmSQL.resources
+C:\Users\Joiner\Documents\GitHub\TEST\TEST\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\Joiner\Documents\GitHub\TEST\TEST\obj\x86\Debug\TEST.vbproj.GenerateResource.Cache

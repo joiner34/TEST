@@ -2,7 +2,6 @@
 Imports System.Data.SqlClient
 
 Public Class frmSQL
-    Dim strConnect As String
     Dim CNSQL As New SqlConnection ' соединение для SQL
     Dim DASQL As New SqlDataAdapter
     Dim StrNameBase As String
@@ -11,9 +10,8 @@ Public Class frmSQL
 
     ' активация формы
     Private Sub frmAccess_Activated(sender As Object, e As System.EventArgs) Handles Me.Activated
-        strConnect = ""
         StrNameBase = ""
-        Me.tbNameBase.Text = ""
+        Me.tbStrCon.Text = ""
         Me.tbQnt.Text = ""
         Me.lblName.Text = ""
         Me.lblQnt.Text = ""
@@ -24,9 +22,11 @@ Public Class frmSQL
         Dim qSQL As SqlCommand ' запрос
         Dim strQuery As String
 
-        If strConnect = "" Then
-            MsgBox("Нет подключения!", MsgBoxStyle.Critical)
+        If Me.tbStrCon.Text = "" Then
+            MsgBox("Нет строки подключения!", MsgBoxStyle.Critical)
             Exit Sub
+        Else
+            CNSQL.ConnectionString = Me.tbStrCon.Text
         End If
         nameTbl = Now.ToString
         nameTbl = Strings.Replace(nameTbl, " ", "")
@@ -51,9 +51,11 @@ Public Class frmSQL
 
     Private Sub btnAddStr_Click(sender As System.Object, e As System.EventArgs) Handles btnAddStr.Click
         ' проверки
-        If strConnect = "" Then
-            MsgBox("Нет подключения!", MsgBoxStyle.Critical)
+        If Me.tbStrCon.Text = "" Then
+            MsgBox("Нет строки подключения!", MsgBoxStyle.Critical)
             Exit Sub
+        Else
+            CNSQL.ConnectionString = Me.tbStrCon.Text
         End If
         If nameTbl = "" Then
             MsgBox("Не создана таблица!", MsgBoxStyle.Critical)
@@ -89,9 +91,11 @@ Public Class frmSQL
     ' показать последнюю строку
     Private Sub btnViewStr_Click(sender As System.Object, e As System.EventArgs) Handles btnViewStr.Click
         ' проверки
-        If strConnect = "" Then
-            MsgBox("Нет подключения!", MsgBoxStyle.Critical)
+        If Me.tbStrCon.Text = "" Then
+            MsgBox("Нет строки подключения!", MsgBoxStyle.Critical)
             Exit Sub
+        Else
+            CNSQL.ConnectionString = Me.tbStrCon.Text
         End If
         If nameTbl = "" Then
             MsgBox("Не создана таблица!", MsgBoxStyle.Critical)
